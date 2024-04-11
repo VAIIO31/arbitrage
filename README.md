@@ -55,6 +55,23 @@ The function does the following:
 
 <img width="797" alt="Ekran Resmi 2023-02-23 01 18 04" src="https://user-images.githubusercontent.com/120671243/222950201-ecb9ddcc-9ba3-41b8-aa54-082039837281.png">
 
+Untuk menggunakan kontrak di Remix, berikut adalah langkah-langkahnya:
+
+Buka Remix: Buka Remix IDE di browser Anda. Anda dapat mengunjungi https://remix.ethereum.org/ untuk membuka Remix.
+
+Buat Kontrak Baru: Pilih tab "Solidity" di Remix dan buat kontrak baru. Anda bisa menyalin dan menempelkan kode kontrak FlashArbitrage di sana.
+
+Compile Kontrak: Klik pada tombol "Compile" di bagian kiri atas untuk mengompilasi kontrak. Pastikan tidak ada kesalahan kompilasi.
+
+Deploy Kontrak: Pilih tab "Deploy & Run Transactions". Pastikan Anda terhubung ke jaringan yang sesuai (misalnya, Ethereum Mainnet). Kemudian, buat instance kontrak dan kontrak akan terdaftar di bawah "Deployed Contracts".
+
+Mengisi Parameter: Di bawah instance kontrak, Anda akan melihat fungsi flashArbitrage. Isi parameter yang diperlukan, seperti path (dalam bentuk array alamat token), amountIn, amountOutMin, dan deadline.
+
+Klik Tombol "Transact": Klik tombol "Transact" untuk menjalankan fungsi flashArbitrage dan memulai proses arbitrase.
+
+Konfirmasi Transaksi: Setelah mengklik "Transact", Remix akan menampilkan popup untuk mengkonfirmasi transaksi. Pastikan untuk memeriksa kembali parameter dan jumlah yang dimasukkan, lalu konfirmasi transaksi.
+
+Monitor Transaksi: Anda dapat menggunakan eksplorer blok atau alat lainnya untuk memonitor status transaksi dan hasil arbitrase.
 
 ## License
 
